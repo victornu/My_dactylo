@@ -22,7 +22,7 @@ void handle_selection_loop(char **names, size_t num_names, int *select)
         if (keycode == 4414235 && *select < num_names - 1)
             (*select)++;
         else if (keycode == 4479771 && *select > 0)
-            (select)--;
+            (*select)--;
     }
 }
 
